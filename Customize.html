@@ -1,0 +1,23 @@
+<script>
+function shoe(color) {
+    var pic;
+    if (color == blue) {
+        pic = "pic_schoenblauw.png"
+    } else if (color == red) {
+        pic = "pic_schoenrood.png"
+    } else if (color == green) {
+        pic = "pic_schoengroen.png"
+    } else {
+        pic = "pic_schoenwit.png"
+    }
+
+    document.getElementById('myImage').src = pic;
+}
+</script>
+
+<noscript>You need Javascript to see this</noscript>
+
+<img id="myImage" src="pic_schoenwit.png">
+
+<p>
+  <button type="button" style="background: url(blue.jpg)" onclick="shoe(blue)"></button>
