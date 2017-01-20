@@ -1,4 +1,4 @@
-ul.topnav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul.topnav {
     background-color: #2C2F33;
 }
 
-ul.topnav li {
+li {
     float: left;
 }
 
-ul.topnav li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -18,16 +18,12 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #007B8B;
 }
 
-ul.topnav li a.active {
+.active {
   background-color: #00C9EB;
-}
-
-ul.topnav li.right {
-  float: right;
 }
 
 @media screen and (max-width: 600px){
