@@ -1,0 +1,13 @@
+function colour(kl) {
+  var pic;
+  if (colour == 0) {
+    pic = "../Afbeeldingen/Schoenen/pic_schoenblauw.png"
+  } else if (colour == 1) {
+    pic = "../Afbeeldingen/Schoenen/pic_schoenrood.png"
+  } else if (colour == 2) {
+    pic = "../Afbeeldingen/Schoenen/pic_schoengroen.png"
+  } else if (colour == 3) {
+    pic = "../Afbeeldingen/Schoenen/pic_schoenwit.png"
+  }
+  document.getElementById('myImage').src = pic;
+}
