@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2C2F33;
+    background-color: #00C9EB;
 }
 
 li {
@@ -12,21 +12,12 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #007B8B;
-}
-
-.active {
-  background-color: #00C9EB;
-}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
 }
