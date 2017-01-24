@@ -2,6 +2,15 @@ body {
   background-image: url("../pictures/background/techbackground.jpg");
 }
 
+#holder{
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11px;
+	margin-bottom: 21px;
+}
+
 .il {
 transition-duration: 0.5s;
 -webkit-transition-duration: 0.5s;
