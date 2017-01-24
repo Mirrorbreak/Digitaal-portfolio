@@ -1,3 +1,7 @@
+body {
+  background-image: url("../pictures/background/techbackground.jpg");
+}
+
 .il {
 transition-duration: 0.5s;
 -webkit-transition-duration: 0.5s;
@@ -11,6 +15,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #2C2F33;
+    border-radius: 10px;
 }
 
 li {
