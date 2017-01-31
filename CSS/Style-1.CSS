@@ -2,6 +2,10 @@ body {
   background-image: url("../pictures/background/techbackground.jpg");
 }
 
+h2 {
+  text-align: center;
+}
+
 #holder{
 	width: 1060px;
 	height: auto;
