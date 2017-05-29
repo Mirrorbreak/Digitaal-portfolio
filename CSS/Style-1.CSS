@@ -7,7 +7,7 @@ h2 {
 }
 
 #holder{
-	width: 1060px;
+	width: 1012px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +29,7 @@ font-size: 15px;
 ul {
     margin-left: auto;
     margin-right: auto;
-    width: 1060px;
+    width: 1012px;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
