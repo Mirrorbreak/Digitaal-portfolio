@@ -1,12 +1,14 @@
 body {
-  background-image: url("../pictures/background/techbackground.jpg");
+  background-image: url("../pictures/background/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
   text-align: center;
 }
 
-#holder{
+#holder {
 	width: 1012px;
 	height: auto;
 	margin-left: auto;
@@ -55,4 +57,15 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #00C9EB;
+}
+
+#footer {
+  width: 1012px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  margin-bottom: 21px;
+  background-color: #EBE8E8;
+  border-radius: 10px;
 }
